@@ -1,3 +1,14 @@
+/**
+ * COLORS
+ *
+ * primary - #fba419
+ * accent - 
+ * dark - 
+ */
+
+
+
+
 /*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -97,18 +108,96 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: 'Lato', sans-serif;
+}
 
 
+header#index {
+    height: 872px;
+    background-image: url(../img/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+}
 
 
+.wd103-topnav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.wd103-topnav .navbar-brand {
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.wd103-topnav .navbar-brand img {
+    margin-right: 10px;
+}
+
+.wd103-topnav a {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.wd103-topnav a:hover {
+    color: #fba419 !important;
+}
 
 
+.wd103-topdivider {
+    background: #858685;
+    height: 2px;
+}
+
+.wd103-slugline {
+    height: 700px;
+}
+
+.wd103-slugline h1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.wd103-slugline p {
+    font-weight: 300;
+    color: #fafafa;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.wd103-slugline span {
+    color: #fba419;
+}
 
 
+.wd103-round-btn {
+    border-radius: 50px;
+}
+
+.wd103-btn {
+    font-size: 16px !important;
+    color: #fff !important;
+}
 
 
+@media (max-width: 575.98px) {
+    
+    .wd103-slugline h1 {
+        font-size: 40px;
+    }
 
+    header#index {
+        background-image: url(../img/header_bg_mobile.jpg);
+    background-position: center center;
+    }
 
+}
 
 
 
