@@ -1,3 +1,6 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
 /**
  * COLORS
  *
@@ -130,7 +133,7 @@ header#index {
 }
 
 .wd103-topnav .navbar-brand {
-    font-size: 40px;
+    font-size: 3rem;
     text-transform: capitalize;
     font-weight: bold;
 }
@@ -189,16 +192,107 @@ header#index {
 @media (max-width: 575.98px) {
     
     .wd103-slugline h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     header#index {
-        background-image: url(../img/header_bg_mobile.jpg);
+    background-image: url(../img/header_bg_mobile.jpg);
     background-position: center center;
     }
 
 }
+section#about {
+    background-color: #fff;
+}
+.wd103-about {
+    height: 822px;
+}
 
+.wd103-about h1 {
+    color: #161616;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.about-text2 {
+    font-weight: 400;
+    color: #404040;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 0.8rem;
+}
+
+.wd103-about span {
+    color: #FBA419;
+}
+
+
+.wd103-about-round-btn {
+    border-radius: 50px;
+}
+
+.wd103-about-btn {
+    font-size: 12px !important;
+    color: #fff !important;
+}
+.wd103-about-img{
+    height: 637px;
+    background-image: url(../img/about_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+section#services{
+    height: 822px;
+    background-image: url(../img/services_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.wd103-services {
+    height: 822px;
+}
+
+.wd103-services h1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.wd103-services p {
+    color: #fafafa;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 1.3rem
+}
+
+.wd103-services span {
+    color: #FBA419;
+    font-size: 55px;
+
+}
+
+.services-h{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #FC9E20;
+    text-transform: uppercase;
+}
+.services-media-body{
+    padding-left: 50px !important;
+    color: #C3C3C3;
+}
+.services-li-pad{
+    padding-top: 50px !important;
+}
+section#feature{
+    height: 822px;
+    background-color: #fff;
+}
+.wd103-feature{
+    height: 636px;
+}
 
 
 
